@@ -1,0 +1,42 @@
+
+.header {
+  &__background {
+    background: var(--primary-soft-beige);
+  }
+
+  &__link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-brown);
+    transition: 0.3s;
+
+    &:hover {
+      color: var(--primary-warm-taupe);
+      transition: 0.3s;
+    }
+  }
+
+  &__button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 0;
+    padding: 0.5rem 3rem;
+    transition: 0.3s;
+
+    &:hover {
+      background: #d8d8d8;
+      transition: 0.3s;
+    }
+    &:active {
+      background: #c5c5c5;
+      transition: 0.3s;
+    }
+  }
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  gap: 16px;
+}

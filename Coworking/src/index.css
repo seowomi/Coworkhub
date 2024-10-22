@@ -1,0 +1,21 @@
+:root {
+    --primary-red: #591824;
+    --primary-white: #E9EEEC;
+    --primary-warm-taupe: #8C6E64;
+    --primary-soft-beige: #BFAE9F;
+    --primary-brown: #261911;
+
+    main {
+        flex: 1 1 auto;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}

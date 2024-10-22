@@ -1,0 +1,51 @@
+
+.price {
+  &__block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    //font-family: "Poppins";
+    &-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: var(--primary-red);
+    }
+
+    &-subtitle {
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 2rem;
+      width: 70%;
+    }
+  }
+
+
+  &__button {
+    border: 2px solid var(--primary-red);
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+    margin-top: 2.5rem;
+    background: transparent;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+    &:hover {
+      background: rgba(89, 24, 36, 0.5);
+      transition: 0.3s;
+    }
+
+    &:active {
+      background: rgba(89, 24, 36, 1);
+      transition: 0.3s;
+    }
+  }
+  &__picture {
+    padding: 10rem 0;
+  }
+}

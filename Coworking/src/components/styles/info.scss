@@ -1,0 +1,54 @@
+
+.info {
+  &__background {
+    background-image: url("Coworking/src/assets/background/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 265px 0;
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 70px;
+      &-title {
+        color: var(--primary-red);
+        -webkit-text-stroke: 1px var(--primary-brown);
+        font-family: 'Merriweather', serif;
+        font-weight: 700;
+        line-height: 55px;
+        span {
+          color: #fff;
+        }
+      }
+      &-subtitle {
+        color: #fff;
+        font-family: 'Merriweather', serif;
+      }
+    }
+
+    &-button {
+      background-color: var(--primary-red);
+      color: #fff;
+      font-size: 16px;
+      line-height: 37px;
+      font-weight: 400;
+      font-family: 'Poppins', sans-serif;
+      border-radius: 39px;
+      border: 0;
+      padding: 0.5rem 3rem;
+
+      transition: background-color 0.3s linear;
+      &:hover {
+        background-color: var(--primary-brown);
+        transition: background-color 0.3s linear;
+      }
+    }
+  }
+}

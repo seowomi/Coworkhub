@@ -1,0 +1,47 @@
+
+.features {
+  &__bg {
+    background-image: url("Coworking/src/assets/background/bg-what.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    color: #FFFFFF;
+  }
+}
+
+.feature {
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 2rem 2rem;
+    gap: 1rem;
+
+    &-name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.for {
+  &__bg {
+    background: #FFFFFF;
+  }
+
+  &__picture {
+    padding: 10rem 0;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+
+    &-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: var(--primary-warm-taupe)
+    }
+
+    &-subtitle {
+      font-size: 16px;
+      line-height: 2rem;
+      width: 75%;
+    }
+  }
+}

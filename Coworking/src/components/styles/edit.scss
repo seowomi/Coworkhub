@@ -1,0 +1,19 @@
+
+.edit {
+
+  &__coworking {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: space-between;
+
+    &-name {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+    }
+
+    &-input {
+
+    }
+  }
+}
